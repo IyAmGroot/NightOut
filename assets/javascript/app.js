@@ -13,7 +13,8 @@ var places = [];
 var zipCode = "";
 var myLat = [];
 var myLong = [];
-var localLat, localLong;
+var theaterLat, theaterLong;
+ 
 
 //Firebase
 var config = {
@@ -159,9 +160,10 @@ var myTableBody = $("<tbody>");
 
 $(document).on("click", ".tRow", function(){
   var rowIndex = $(this).closest('tr').index();
-  localLat = myLat[rowIndex];
-  localLong = myLong[rowIndex];
-  getYpData(localLat, localLong);
+  theaterLat = myLat[rowIndex];
+  theaterLong = myLong[rowIndex];
+  initMap();
+  getYpData(theaterLat, theaterLong);
   
 });
 
@@ -258,23 +260,9 @@ function getYpData(x, y) {
   });
 }
 
-// $(document).ready(function() {
-//   $("#test").on("click", function() {
-//     //This event calls getYPData and initMap()
-//     //this event can be removed... these steps need to be produced
-//     //somewhere to populate the restaurant list map
-//     console.log("click");
-//     lat = "38.881430";
-//     long = "-77.116320";
-
-//     getYpData(lat, long);
-//     initMap();
-//   });
-// });
-
 function initMap() {
-  var myLat = parseFloat(localLat);
-  var myLong = parseFloat(localLong);
+  var myLat = parseFloat(theaterLat);
+  var myLong = parseFloat(theaterLong);
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: myLat, lng: myLong },
     zoom: 16

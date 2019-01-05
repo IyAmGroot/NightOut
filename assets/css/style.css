@@ -1,15 +1,216 @@
 /* GENERAL FORMATTING  ------------------------------------------------------------------------------------- */
 
+.containerHeaderRegistration{   width: 80%;
+  height: 10%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0%;
+  margin: 10px auto;  }
+
+  .formRegistration{  display: block;
+     width: 80%;
+     background-color: white;
+     border-radius: 5px;
+     padding: 1%;
+     margin: 5px auto;  }
+
+  #logoImageSmall{   width: 60%;                                  /*also for MOVIE SEARCH PAGE*/
+     height: 20%;  }
+
+     .btn-black{background-color:#000;color: #FFF; font-size: 12px;}
+   .btn-black:hover{color: #FFF;}
+
+   /* INDEX */
+   h3{   font-size: 12px; 
+     margin: 4px; }  
+     
+     .containerIndex {     display: block;
+                    text-align: left;
+                    width: 80%;
+                    background-color: white;
+                    border-radius: 5px;
+                    padding: 1%;
+                    margin: 30px auto;   } 
+     
+     .logo {   display: block;
+        margin: 0px 5px 5px 5px;
+        padding: 2px;
+        text-align: center;   }
+     
+     #logoImage{   width: 60%;
+            height: 30%;   }
+     
+     
+     .signInInput{    font-size: 14px;
+               padding: 5px;
+               display: block;
+               text-align: left;   }   
+
+               .Searchmovie{
+                 display: block; 
+                 width: 80%;
+                 background-color: white;
+                 border-radius: 5px;
+                 padding: 1%;
+                 margin: 0px auto; 
+              }
+
+              /*formatting buttons*/
+#registerBtn, #searchMovieBtn{   background-color: black;           
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  margin: 5px 1000px 10px 5px;  
+    }
+
+              #theater-list, #restaurant-list{
+                 display: block;
+                 width: 80%;
+                 background-color: white;
+                 border-radius: 5px;
+                 padding: 1%;
+                 margin: 5px auto;  }
+                 
+
+                 #searchBtn{
+                    margin-top: 5px;
+                    background-color: #000;
+                    color: #fff;
+                    font-size: 13px;
+                    padding: 5px;
+                    margin-left: 5px;
+                    border-radius: 8px;
+                }
+             
+             .zipcodeLabel{
+                padding-right: 5px;
+             }
+
+
+@media only screen and (min-width: 640px){
+
+  /* USER PROFILE */
+.containerHeaderRegistration{   width: 80%;
+  height: 90px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 10px auto;  }
+
+  .formRegistration{  display: block;
+     width: 80%;
+     background-color: white;
+     border-radius: 5px;
+     padding: 1%;
+     margin: 5px auto;  }
+
+  #logoImageSmall{   width: 180px;                                  /*also for MOVIE SEARCH PAGE*/
+     height: 70px;  }
+
+     .btn-black{background-color:#000;color: #FFF; font-size: 15px;}
+   .btn-black:hover{color: #FFF;}
+     
+   /* INDEX */
+   h3{   font-size: 14px; 
+     margin: 4px; }  
+     
+     .containerIndex {     display: block;
+                    text-align: left;
+                    width: 80%;
+                    background-color: white;
+                    border-radius: 5px;
+                    padding: 1%;
+                    margin: 30px auto;   } 
+     
+     .logo {   display: block;
+        margin: 0px 5px 5px 5px;
+        padding: 3px;
+        text-align: center;   }
+     
+     #logoImage{   width: 60%;
+            height: 30%;   }
+     
+     
+     .signInInput{    font-size: 14px;
+               padding: 5px;
+               display: block;
+               text-align: left;   }   
+  
+
+  /* MOVIE SEARCH */
+
+  .Searchmovie{
+     display: block; 
+     width: 80%;
+     background-color: white;
+     border-radius: 5px;
+     padding: 1%;
+     margin: 0px auto; 
+  }
+
+  /*formatting buttons*/
+#registerBtn, #searchMovieBtn{   background-color: black;           
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  margin: 5px 1000px 10px 5px;  
+    }
+
+  h1{
+     position: relative;
+     float: right;
+     padding-top: 0px;
+  }
+
+  p{
+     position: relative;
+     float: right;
+  }
+ 
+  #searchBtn{
+     margin-top: 5px;
+     background-color: #000;
+     color: #fff;
+     font-size: 13px;
+     padding: 5px;
+     margin-left: 5px;
+     border-radius: 8px;
+ }
+ 
+ .zipcodeLabel{
+    padding-right: 5px;
+ }
+ 
+     #searchBtn{
+         margin-bottom: 4px;
+         background-color: #000;
+         color: #fff;
+         font-size: 12px;
+         padding: 5px;
+         margin-left: 5px;
+         border-radius: 8px;
+     }
+
+     #theater-list, #restaurant-list{
+        display: block;
+        width: 80%;
+        background-color: white;
+        border-radius: 5px;
+        padding: 1%;
+        margin: 5px auto;  }
+        
+        }
+
+@media only screen and (min-width: 980px){
 body{    background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
+ background-size: cover;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 /*formatting buttons*/
 #registerBtn, #searchMovieBtn{   background-color: black;           
-                          font-size: 12px;
-                          padding: 10px 20px 10px 20px;
-                          margin: 5px 10px 10px 5px;    }
+                         font-size: 12px;
+                         padding: 10px 20px 10px 20px;
+                         margin: 5px 1000px 10px 5px;  
+                           }
 
 
 /*including box to place #registerBtn*/                                    
@@ -30,83 +231,102 @@ h3{   font-size: 14px;
 margin: 4px; }  
 
 .containerIndex {     display: block;
-               text-align: left;
-               width: 750px;
-               background-color: white;
-               border-radius: 5px;
-               padding: 1%;
-               margin: 30px auto;   } 
+              text-align: left;
+              width: 80%;
+              background-color: white;
+              border-radius: 5px;
+              padding: 1%;
+              margin: 30px auto;   } 
 
 .logo {   display: block;
-   margin: 0px 5px 5px 5px;
-   padding: 3px;
-   text-align: center;   }
+  margin: 0px 5px 5px 5px;
+  padding: 3px;
+  text-align: center;   }
 
-#logoImage{   width: 300px;
-       height: 150px;   }
+  #logoImage{   width: 40%;
+     height: 30%;   }
 
 
 .signInInput{    font-size: 14px;
-          padding: 5px;
-          display: block;
-          text-align: left;   }       
-
-
+         padding: 5px;
+         display: block;
+         text-align: left;   }    
 
 /* USER REGISTRATION PAGE -------------------------------------------------------------------------------------------- */
 
 #menuBar{   height: 20px;                                       /*also for MOVIE SEARCH PAGE*/
-     background-color:black;   } 
+    background-color:black;   } 
 
 .containerHeaderRegistration{   width: 750px;
-                         height: 100px;
-                         background-color: white;
-                         border-radius: 5px;
-                         padding: 1%;
-                         margin: 10px auto;  }
+                        height: 100px;
+                        background-color: white;
+                        border-radius: 5px;
+                        padding: 1%;
+                        margin: 10px auto;  }
 
 .formRegistration{  display: block;
-             width: 750px;
-             background-color: white;
-             border-radius: 5px;
-             padding: 1%;
-             margin: 5px auto;  }
+            width: 750px;
+            height: 450px;
+            background-color: white;
+            border-radius: 5px;
+            padding: 1%;
+            margin: 5px auto;  }
 
 #logoImageSmall{   width: 180px;                                  /*also for MOVIE SEARCH PAGE*/
-            height: 70px;  }
-          
+           height: 70px;  }
+         
 h4{   font-size: 12px;   }                                        /*also for MOVIE SEARCH PAGE*/
+
+#textHeader{   vertical-align: center; position: sticky;  }                         also for MOVIE SEARCH PAGE
  
-#textHeader{   vertical-align: center;  }                         /*also for MOVIE SEARCH PAGE*/
-  
 
 
 /* MOVIE SEARCH PAGE   -------------------------------------------------------------------------------------- */
 
-.containerHeaderMovie{  width: 960px;
-                 height: 100px;
-                 background-color: white;
-                 border-radius: 5px;
-                 padding: 1%;
-                 margin: 10px auto;  }   
+.containerHeaderMovie{  width: 750px;
+                height: 100px;
+                background-color: white;
+                border-radius: 5px;
+                padding: 1%;
+                margin: 10px auto;  }   
 
-.movieSearch{ display: block;
-       width: 960px;
-       background-color: white;
-       border-radius: 5px;
-       padding: 1%;
-       margin: 5px auto;  }
+.Searchmovie{
+   display: block; 
+   width: 750px;
+   background-color: white;
+   border-radius: 5px;
+   padding: 1%;
+   margin: 0px auto; 
+}
 
+      .btn-black{background-color:#000;color: #FFF;}
+   .btn-black:hover{color: #FFF;}
+
+.zipcodeLabel{
+  padding-right: 5px;
+}
+
+   #searchBtn{
+       margin-top: 5px;
+       background-color: #000;
+       color: #fff;
+       font-size: 13px;
+       padding: 5px;
+       margin-left: 5px;
+       border-radius: 8px;
+   }
 
 /* Display Search Results */
 
-#theater-list, #restaurant-list, #map{
+#theater-list, #restaurant-list{
 display: block;
-width: 960px;
+width: 750px;
 background-color: white;
 border-radius: 5px;
 padding: 1%;
 margin: 5px auto;  }
+
+}
 
 /* enable absolute positioning */
 .inner-addon {
