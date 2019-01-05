@@ -20,31 +20,41 @@
 
 </head>
 
-<body background = "assets/images/backgroundRegistration.jpg">
+<body background = "assets/css/images/backgroundRegistration.jpg">
 
 <!-- NAVIGATION BAR ----------------------------------------------------------------------------------------->
 
 <nav>    
                    
     <header>
-         <nav class="navbar navbar-inverse" id="menuBar">
-            <div class="container-fluid">
-
-                <ul class="nav navbar-nav" >
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="userProfile.html">User Profile Update</a></li>
-                </ul>
-                             
-                <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
-                        <li><a href="logOut.html"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
+        <nav class="navbar navbar-inverse" id="menuBar">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">Night Out</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">Home</a></li>
+                      <!-- <li class="active"><a href="">User Profile Update</a></li> -->
+                      <li class="active"><a href="movieSearch.html">Movie Search</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="userProfile.html"><span class="glyphicon glyphicon-user"></span> User Profile</a></li>
+                      <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+                                  
+  </header></header>     
     
-                </ul>
-                            
-            </div>
-         </nav>
-                                
-    </header>                     
+
+
 </nav>      
 
 <!-- FORM HEADER  ---------------------------------------------------------------------------------------------->    
@@ -55,49 +65,51 @@
 
         <div class="form-group col-md-3">
             <img id="logoImageSmall" src="assets/css/images/logo.jpg" alt="NightOut">  
+                <!-- <h1>User Profile</h1> -->
+    
         </div>
                                           
-        <div class="form-group col-md-9" id="textHeader">
-            <h1>User Profile</h1>
-            <p> Please, tell us a little bit about you</p>
-        </div>
-    
+       
+        
+
     </div>
 
 </div>
 
    
 <!-- USER PROFILE FORM ----------------------------------------------------------------------------------->      
-      
+<div>
 <form class="formRegistration">
-
+    <div>
+        
     <!-- Name and Email -->   
     <div class="form-row">
-        <div class="form-group col-md-6">
+        <div id="generalinfo" class="form-group col-md-4">
             <label for="inputName">Name(*)</label>
             <input type="name" class="form-control" id="inputName" placeholder="John Smith" required>
         </div>
 
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label for="inputEmail">Email(*) </label>
             <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
         </div>
-    </div>
-
+   
     <!-- Phone, Date of Birth and Age -->        
-    <div class="form-row">
 
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-4">
             <label for="inputPhone">Phone Number</label>
             <input type="phone" class="form-control" id="inputPhone" placeholder="(999) 999-9999">
-        </div>      
+        </div> 
+    </div>
 
-        <div class="form-group col-md-3">
+    <div class="form-row">
+
+        <div class="form-group col-xs-12 col-md-4">
             <label for="inputBirth">Date of Birth</label>
             <input type="date" class="form-control" id="inputBirth" placeholder="MM/DD">
         </div>
-
-        <div class="form-group col-md-3">
+        
+      <div class="form-group col-md-4">
                 <label for="inputAge">Age</label>
                 <select id="inputAge" class="form-control">
                     <option selected>Choose...</option>
@@ -111,7 +123,7 @@
                 </select>
         </div>    
 
-        <div class="form-group col-md-3">
+        <div class="form-group col-md-4">
                 <label for="inputGender">Gender</label>
                 <select id="inputGender" class="form-control">
                     <option selected>Choose...</option>
@@ -120,9 +132,9 @@
                     <option name="genderDrop" id="Prefer not to answer" value="Prefer not to answer">Prefer not to answer</option>
                 </select>
         </div>   
-     
+      
     </div>
-
+    
     <!-- Address -->
     <div class="form-row">
         <div class="form-group col-md-12">
@@ -154,9 +166,8 @@
         </div>
     </div>
        
-    <!-- Preferred Movie Genres -->       
+    <!-- Preferred Movie Genres --> 
     <div class="form-row">
-
             <div class="form-group col-md-4">
                     <label for="input1Genre">#1 Preferred Movie Genre</label>
                     <select id="input1Genre" class="form-control">
@@ -207,14 +218,13 @@
                         <option name="genreDrop" id="scifi" value="scifi">Sci-Fi & Fantasy</option>
                     </select>
             </div>     
-
-    </div>
+        </div>   
  
-    <button type="submit" class="btn btn-primary" id="registerBtn"> Save <i class="fas fa-arrow-circle-right"></i></button>          
+    <button type="submit" class="btn btn-lg btn-black" id="registerBtn"> Save <i class="fas fa-arrow-circle-right"></i></button>          
        
 </form>
   
-
+</div>
 <!-- Link to JS ------------------------------------------------------------------------------------------- -->
 <script type="text/javascript" src="assets/javascript/initalizejs.js"></script>
 

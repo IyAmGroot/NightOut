@@ -75,7 +75,7 @@ for (var i = 0; i < places.length; i++) {
 //==================================
 
 //click search movie button and pull up theater()
-$("#searchMovieBtn").on("click", function(event) {
+$("#searchBtn").on("click", function(event) {
     event.preventDefault();
     console.log("hello");
     zipCode = $("#inputZipSearch").val().trim();

@@ -318,7 +318,7 @@ h4{   font-size: 12px;   }                                        /*also for MOV
 
 /* Display Search Results */
 
-#theater-list, #restaurant-list{
+#theater-list, #restaurant-list, #map{
 display: block;
 width: 750px;
 background-color: white;
