@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Night Out!</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+    <!-- Fontawesome -->  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+
+</head>
+
+<body background = "assets/images/backgroundRegistration.jpg">
+
+<!-- NAVIGATION BAR ----------------------------------------------------------------------------------------->
+
+<nav>    
+                   
+    <header>
+         <nav class="navbar navbar-inverse" id="menuBar">
+            <div class="container-fluid">
+
+                <ul class="nav navbar-nav" >
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="userProfile.html">User Profile Update</a></li>
+                </ul>
+                             
+                <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+                        <li><a href="logOut.html"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
+    
+                </ul>
+                            
+            </div>
+         </nav>
+                                
+    </header>                     
+</nav>      
+
+<!-- FORM HEADER  ---------------------------------------------------------------------------------------------->    
+
+<div class="containerHeaderRegistration">
+
+    <div class="form-row">
+
+        <div class="form-group col-md-3">
+            <img id="logoImageSmall" src="assets/css/images/logo.jpg" alt="NightOut">  
+        </div>
+                                          
+        <div class="form-group col-md-9" id="textHeader">
+            <h1>User Profile</h1>
+            <p> Please, tell us a little bit about you</p>
+        </div>
+    
+    </div>
+
+</div>
+
+   
+<!-- USER PROFILE FORM ----------------------------------------------------------------------------------->      
+      
+<form class="formRegistration">
+
+    <!-- Name and Email -->   
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputName">Name(*)</label>
+            <input type="name" class="form-control" id="inputName" placeholder="John Smith" required>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="inputEmail">Email(*) </label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+        </div>
+    </div>
+
+    <!-- Phone, Date of Birth and Age -->        
+    <div class="form-row">
+
+        <div class="form-group col-md-3">
+            <label for="inputPhone">Phone Number</label>
+            <input type="phone" class="form-control" id="inputPhone" placeholder="(999) 999-9999">
+        </div>      
+
+        <div class="form-group col-md-3">
+            <label for="inputBirth">Date of Birth</label>
+            <input type="date" class="form-control" id="inputBirth" placeholder="MM/DD">
+        </div>
+
+        <div class="form-group col-md-3">
+                <label for="inputAge">Age</label>
+                <select id="inputAge" class="form-control">
+                    <option selected>Choose...</option>
+                    <option name="ageDrop" id="Under 18" value="Under 18">Under 18</option>
+                    <option name="ageDrop" id="18-24" value="18-24">18-24</option>
+                    <option name="ageDrop" id="25-34" value="25-34">25-34</option>
+                    <option name="ageDrop" id="35-44" value="35-44">35-44</option>
+                    <option name="ageDrop" id="45-54" value="45-54">45-54</option>
+                    <option name="ageDrop" id="55+" value="55+">55+</option>
+                    <option name="ageDrop" id="Prefer not to answer" value="Prefer not to answer">Prefer not to answer</option>
+                </select>
+        </div>    
+
+        <div class="form-group col-md-3">
+                <label for="inputGender">Gender</label>
+                <select id="inputGender" class="form-control">
+                    <option selected>Choose...</option>
+                    <option name="genderDrop" id="male" value="male">Male</option>
+                    <option name="genderDrop" id="female" value="female">Female</option>
+                    <option name="genderDrop" id="Prefer not to answer" value="Prefer not to answer">Prefer not to answer</option>
+                </select>
+        </div>   
+     
+    </div>
+
+    <!-- Address -->
+    <div class="form-row">
+        <div class="form-group col-md-12">
+            <label for="inputAddress"> Address </label>
+            <input type="adress" class="form-control" id="inputAddress" placeholder="123 Main St Apt 202">
+        </div>
+    </div>
+    
+    <!-- City, State and ZIP Code -->    
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option name="stateDrop" id="dc" value="DC">DC</option>
+                <option name="stateDrop" id="md" value="MD">MD</option>
+                <option name="stateDrop" id="va" value="VA">VA</option>
+            </select>
+        </div>
+                    
+        <div class="form-group col-md-2">
+            <label for="inputZip">ZIP Code</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="00000">
+        </div>
+    </div>
+       
+    <!-- Preferred Movie Genres -->       
+    <div class="form-row">
+
+            <div class="form-group col-md-4">
+                    <label for="input1Genre">#1 Preferred Movie Genre</label>
+                    <select id="input1Genre" class="form-control">
+                        <option selected>Choose...</option>
+                        <option name="genreDrop" id="action" value="action">Action</option>
+                        <option name="genreDrop" id="children" value="children">Children & Family</option>
+                        <option name="genreDrop" id="classics" value="classics">Classics</option>
+                        <option name="genreDrop" id="comedies" value="comedies">Comedies</option>
+                        <option name="genreDrop" id="documentaries" value="documentarie">Documentaries</option>
+                        <option name="genreDrop" id="drama" value="drama">Drama</option>
+                        <option name="genreDrop" id="horror" value="horror">Horror</option>
+                        <option name="genreDrop" id="international" value="international">International</option>
+                        <option name="genreDrop" id="romance" value="romance">Romance</option>
+                        <option name="genreDrop" id="scifi" value="scifi">Sci-Fi & Fantasy</option>
+                    </select>
+            </div>   
+
+            <div class="form-group col-md-4">
+                    <label for="input2Genre">#2 Preferred Movie Genre</label>
+                    <select id="input2Genre" class="form-control">
+                        <option selected>Choose...</option>
+                        <option name="genreDrop" id="action" value="action">Action</option>
+                        <option name="genreDrop" id="children" value="children">Children & Family</option>
+                        <option name="genreDrop" id="classics" value="classics">Classics</option>
+                        <option name="genreDrop" id="comedies" value="comedies">Comedies</option>
+                        <option name="genreDrop" id="documentaries" value="documentarie">Documentaries</option>
+                        <option name="genreDrop" id="drama" value="drama">Drama</option>
+                        <option name="genreDrop" id="horror" value="horror">Horror</option>
+                        <option name="genreDrop" id="international" value="international">International</option>
+                        <option name="genreDrop" id="romance" value="romance">Romance</option>
+                        <option name="genreDrop" id="scifi" value="scifi">Sci-Fi & Fantasy</option>
+                    </select>
+            </div>    
+
+            <div class="form-group col-md-4">
+                    <label for="input3Genre">#3 Preferred Movie Genre</label>
+                    <select id="input3Genre" class="form-control">
+                        <option selected>Choose...</option>
+                        <option name="genreDrop" id="action" value="action">Action</option>
+                        <option name="genreDrop" id="children" value="children">Children & Family</option>
+                        <option name="genreDrop" id="classics" value="classics">Classics</option>
+                        <option name="genreDrop" id="comedies" value="comedies">Comedies</option>
+                        <option name="genreDrop" id="documentaries" value="documentarie">Documentaries</option>
+                        <option name="genreDrop" id="drama" value="drama">Drama</option>
+                        <option name="genreDrop" id="horror" value="horror">Horror</option>
+                        <option name="genreDrop" id="international" value="international">International</option>
+                        <option name="genreDrop" id="romance" value="romance">Romance</option>
+                        <option name="genreDrop" id="scifi" value="scifi">Sci-Fi & Fantasy</option>
+                    </select>
+            </div>     
+
+    </div>
+ 
+    <button type="submit" class="btn btn-primary" id="registerBtn"> Save <i class="fas fa-arrow-circle-right"></i></button>          
+       
+</form>
+  
+
+<!-- Link to JS ------------------------------------------------------------------------------------------- -->
+<script type="text/javascript" src="assets/javascript/initalizejs.js"></script>
+
+
+</body>
+
+</html>

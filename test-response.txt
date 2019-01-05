@@ -1,0 +1,912 @@
+{
+    "businesses": [
+        {
+            "id": "d82VK9Ve7hq1WROlsA4fIA",
+            "alias": "pupatella-arlington-3",
+            "name": "Pupatella",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/92Ert5m9_oJ1JtBpPRoRjw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pupatella-arlington-3?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 1733,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "gelato",
+                    "title": "Gelato"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.87765,
+                "longitude": -77.12223
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "5104 Wilson Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22205",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "5104 Wilson Blvd",
+                    "Arlington, VA 22205"
+                ]
+            },
+            "phone": "+15713127230",
+            "display_phone": "(571) 312-7230",
+            "distance": 664.1284196807097
+        },
+        {
+            "id": "KudJEL3-xWdk_zVAwACmtQ",
+            "alias": "el-pollo-rico-arlington",
+            "name": "El Pollo Rico",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/udFD2GpcA7d4LVm2aHFV6w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-pollo-rico-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 1363,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 38.8839,
+                "longitude": -77.10075
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "932 N Kenmore St",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "932 N Kenmore St",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+17035223220",
+            "display_phone": "(703) 522-3220",
+            "distance": 1376.4448735276421
+        },
+        {
+            "id": "O5YrMeOGYDxLcnf5mrlR0A",
+            "alias": "big-buns-damn-good-burgers-arlington-2",
+            "name": "Big Buns Damn Good Burgers",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-EJPzClCSR_8h41HIhSvUw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/big-buns-damn-good-burgers-arlington-2?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 848,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "beer_and_wine",
+                    "title": "Beer, Wine & Spirits"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.8806565106371,
+                "longitude": -77.1135179447746
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4401 Wilson Blvd",
+                "address2": "Ste 105",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "4401 Wilson Blvd",
+                    "Ste 105",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+17032763032",
+            "display_phone": "(703) 276-3032",
+            "distance": 257.34309831980005
+        },
+        {
+            "id": "Ej_S0TYGWOGi9LPdDz7DKA",
+            "alias": "ambar-arlington-3",
+            "name": "Ambar",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/F-9aHHk3MXwHvFqKsl13kg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ambar-arlington-3?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 862,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 38.88874,
+                "longitude": -77.09345
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2901 Wilson Blvd",
+                "address2": "",
+                "address3": null,
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "2901 Wilson Blvd",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+17038759663",
+            "display_phone": "(703) 875-9663",
+            "distance": 2132.3981063381675
+        },
+        {
+            "id": "t3ORi68lKMvC2Ia0N-n6VA",
+            "alias": "fettoosh-arlington",
+            "name": "Fettoosh",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/nX5ltXh-ARSG9VNQ0164-g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fettoosh-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 361,
+            "categories": [
+                {
+                    "alias": "moroccan",
+                    "title": "Moroccan"
+                },
+                {
+                    "alias": "lebanese",
+                    "title": "Lebanese"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 38.877938,
+                "longitude": -77.122139
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5100 Wilson Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22205",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "5100 Wilson Blvd",
+                    "Arlington, VA 22205"
+                ]
+            },
+            "phone": "+17035277710",
+            "display_phone": "(703) 527-7710",
+            "distance": 635.9913898499888
+        },
+        {
+            "id": "-dRL6yDxKwoth6KlloMrLg",
+            "alias": "northside-social-coffee-and-wine-arlington",
+            "name": "Northside Social Coffee & Wine",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/W54enIshMSX_yuoAHVI9mQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/northside-social-coffee-and-wine-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 1134,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.88539,
+                "longitude": -77.09788
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3211 Wilson Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "3211 Wilson Blvd",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+17034650145",
+            "display_phone": "(703) 465-0145",
+            "distance": 1660.1286648942494
+        },
+        {
+            "id": "-d6GRp2UvFjsX4ay1MI9jw",
+            "alias": "bakeshop-arlington",
+            "name": "Bakeshop",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qMhd1mI-D4gWbPPxM_QftQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bakeshop-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 724,
+            "categories": [
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "bakeries",
+                    "title": "Bakeries"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 38.8854565743547,
+                "longitude": -77.0926368515205
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1025 N Fillmore St",
+                "address2": "Ste G",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "1025 N Fillmore St",
+                    "Ste G",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+15719706460",
+            "display_phone": "(571) 970-6460",
+            "distance": 2098.262771023976
+        },
+        {
+            "id": "9AM3zqpnvigkXAARt184eA",
+            "alias": "cava-mezze-clarendon-arlington-4",
+            "name": "Cava Mezze",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/52XfwZtqDHFJRVe-A5noUQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cava-mezze-clarendon-arlington-4?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 1033,
+            "categories": [
+                {
+                    "alias": "greek",
+                    "title": "Greek"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.8873372765103,
+                "longitude": -77.0935923478851
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2940 Clarendon Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "2940 Clarendon Blvd",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+17032769090",
+            "display_phone": "(703) 276-9090",
+            "distance": 2073.9726898498307
+        },
+        {
+            "id": "hN-kCm6mUoWGtf8U_rQU-g",
+            "alias": "rus-uz-arlington-arlington-2",
+            "name": "Rus Uz - Arlington",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/6MoK2uxoiGMggCCwCUrLGQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rus-uz-arlington-arlington-2?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 380,
+            "categories": [
+                {
+                    "alias": "russian",
+                    "title": "Russian"
+                },
+                {
+                    "alias": "uzbek",
+                    "title": "Uzbek"
+                },
+                {
+                    "alias": "halal",
+                    "title": "Halal"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.88279,
+                "longitude": -77.10978
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1000 N Randolph St",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "1000 N Randolph St",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+15713124086",
+            "display_phone": "(571) 312-4086",
+            "distance": 583.6465729371014
+        },
+        {
+            "id": "3YgzcEWDgn1vPO2pswOeQA",
+            "alias": "ravi-kabob-house-arlington-3",
+            "name": "Ravi Kabob House",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/S5NPZsta7_XY8xldsoIKFA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ravi-kabob-house-arlington-3?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 645,
+            "categories": [
+                {
+                    "alias": "pakistani",
+                    "title": "Pakistani"
+                },
+                {
+                    "alias": "halal",
+                    "title": "Halal"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.87418,
+                "longitude": -77.10516
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "305 N Glebe Rd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "305 N Glebe Rd",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+17035226666",
+            "display_phone": "(703) 522-6666",
+            "distance": 1261.5110201601883
+        },
+        {
+            "id": "Oe-VL_dWKzMxndtuz_0UNw",
+            "alias": "yelper-party-cirque-du-yelp-at-clarendon-ballroom-arlington",
+            "name": "Yelper Party: Cirque du Yelp at Clarendon Ballroom",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/pV8c6r2m-SogZJn1P0RxKg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/yelper-party-cirque-du-yelp-at-clarendon-ballroom-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 125,
+            "categories": [
+                {
+                    "alias": "yelpevents",
+                    "title": "Yelp Events"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 38.88636,
+                "longitude": -77.09669
+            },
+            "transactions": [],
+            "location": {
+                "address1": "3185 Wilson Blvd",
+                "address2": null,
+                "address3": "Clarendon Ballroom",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "3185 Wilson Blvd",
+                    "Clarendon Ballroom",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 1782.424971565807
+        },
+        {
+            "id": "wwaLUZAeeDrYgjenSEXdKQ",
+            "alias": "the-liberty-tavern-arlington",
+            "name": "The Liberty Tavern",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oEmy8kXjAus48_jDcWadXA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-liberty-tavern-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 1181,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.8862987870371,
+                "longitude": -77.0968024062941
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3195 Wilson Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "3195 Wilson Blvd",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+17034659360",
+            "display_phone": "(703) 465-9360",
+            "distance": 1773.997404511925
+        },
+        {
+            "id": "y3Ay97PEaLd6iDNao2zHdQ",
+            "alias": "super-pollo-arlington-3",
+            "name": "Super Pollo",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fqXH8v7UoGKYrb7AixpQvw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/super-pollo-arlington-3?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 318,
+            "categories": [
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.8778993014301,
+                "longitude": -77.1079216827532
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "550 N Quincy St",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "550 N Quincy St",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+15719703421",
+            "display_phone": "(571) 970-3421",
+            "distance": 826.2059458825611
+        },
+        {
+            "id": "sufpWerGyV1SrC2_kWvVRw",
+            "alias": "the-italian-store-arlington",
+            "name": "The Italian Store",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/X5ngMnG0ROu9esAXCErAUw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-italian-store-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 884,
+            "categories": [
+                {
+                    "alias": "delis",
+                    "title": "Delis"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.89663,
+                "longitude": -77.09635
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "3123 Lee Hwy",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "3123 Lee Hwy",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+17035286266",
+            "display_phone": "(703) 528-6266",
+            "distance": 2420.5604368404965
+        },
+        {
+            "id": "kxFsdaeeFMtKGaLiPXXDjA",
+            "alias": "oby-lee-arlington",
+            "name": "Oby Lee",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4NUjAKd3MIcFCk9PWYBGHg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/oby-lee-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 453,
+            "categories": [
+                {
+                    "alias": "wineries",
+                    "title": "Wineries"
+                },
+                {
+                    "alias": "creperies",
+                    "title": "Creperies"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 38.8846905944671,
+                "longitude": -77.0937907134224
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3000 N Washington Blvd",
+                "address2": "",
+                "address3": "The Reserve At Clarendon Centre",
+                "city": "Arlington",
+                "zip_code": "22201",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "3000 N Washington Blvd",
+                    "The Reserve At Clarendon Centre",
+                    "Arlington, VA 22201"
+                ]
+            },
+            "phone": "+15712575054",
+            "display_phone": "(571) 257-5054",
+            "distance": 1983.4904242540288
+        },
+        {
+            "id": "Bb5Gu3zUSnZ59PQNuyTfNw",
+            "alias": "rustico-restaurant-and-bar-arlington",
+            "name": "Rustico Restaurant & Bar",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xWINJ4TDJMgwaPKorYRghQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rustico-restaurant-and-bar-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 721,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 38.8801019076588,
+                "longitude": -77.1083176018631
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "4075 Wilson Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "4075 Wilson Blvd",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+15713841820",
+            "display_phone": "(571) 384-1820",
+            "distance": 708.2548268798649
+        },
+        {
+            "id": "H-okbs9LtwOXFHDjhcfNUQ",
+            "alias": "a-town-bar-and-grill-arlington",
+            "name": "A-Town Bar & Grill",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/X8npMXO5AhQ-haJ7kOUPBg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/a-town-bar-and-grill-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 594,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 38.8821750984061,
+                "longitude": -77.109493079487
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4100 Fairfax Dr",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "4100 Fairfax Dr",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+17035281110",
+            "display_phone": "(703) 528-1110",
+            "distance": 596.7096040200456
+        },
+        {
+            "id": "Vg0-NSHUe0wNASHTqv0GfQ",
+            "alias": "sushi-2-go-arlington",
+            "name": "Sushi 2 Go",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/CAYfnSkeFzMglUNIs121Pw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sushi-2-go-arlington?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 183,
+            "categories": [
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 38.8815193,
+                "longitude": -77.1113129
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "901 N Stuart St",
+                "address2": "Ste 117",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "901 N Stuart St",
+                    "Ste 117",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+17032434000",
+            "display_phone": "(703) 243-4000",
+            "distance": 438.1784739970647
+        },
+        {
+            "id": "SLOGaSkSU5DzZZdHSgkg1g",
+            "alias": "metro-halal-food-cart-arlington-2",
+            "name": "Metro Halal Food Cart",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/QQCxsFB6MV0Zw1l7eBklgw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/metro-halal-food-cart-arlington-2?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 113,
+            "categories": [
+                {
+                    "alias": "halal",
+                    "title": "Halal"
+                },
+                {
+                    "alias": "pakistani",
+                    "title": "Pakistani"
+                },
+                {
+                    "alias": "foodstands",
+                    "title": "Food Stands"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 38.8805046081543,
+                "longitude": -77.110969543457
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "4201 Wilson Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "4201 Wilson Blvd",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+17036240212",
+            "display_phone": "(703) 624-0212",
+            "distance": 477.34052247544196
+        },
+        {
+            "id": "yTDjgTgqR9YubrKCP95wnQ",
+            "alias": "uncle-julios-arlington-2",
+            "name": "Uncle Julio's",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/TXQujU64qge-HP7L23_anQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/uncle-julios-arlington-2?adjust_creative=hmyCMm-P-WttSrBlWxi7Kw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=hmyCMm-P-WttSrBlWxi7Kw",
+            "review_count": 652,
+            "categories": [
+                {
+                    "alias": "tex-mex",
+                    "title": "Tex-Mex"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 38.8825342689353,
+                "longitude": -77.1129219288375
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4301 Fairfax Dr",
+                "address2": "",
+                "address3": "",
+                "city": "Arlington",
+                "zip_code": "22203",
+                "country": "US",
+                "state": "VA",
+                "display_address": [
+                    "4301 Fairfax Dr",
+                    "Arlington, VA 22203"
+                ]
+            },
+            "phone": "+17035283131",
+            "display_phone": "(703) 528-3131",
+            "distance": 318.7331577703305
+        }
+    ],
+    "total": 560,
+    "region": {
+        "center": {
+            "longitude": -77.11632,
+            "latitude": 38.88143
+        }
+    }
+}

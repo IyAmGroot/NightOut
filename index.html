@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+   <title> Night Out!</title>
+
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+   <!-- Fontawesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP” crossorigin="anonymous”>
+
+   <!-- Firebase Reference -->
+   <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+
+   <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+
+</head>
+
+<body background = "assets/css/images/backgroundIndex.jpg">
+
+<form>
+
+    <div class = "containerIndex">
+
+        <div class = "logo">
+
+        <h2>Welcome to</h2>
+        <img id="logoImage" src="assets/css/images/logo.jpg" alt="NightOut">   
+
+        <h3><em><strong>Looking for a lot of fun but no time? </strong></em></h3>
+        <h3><em><strong>We help you plan the perfect night out.</strong></em></h3>
+        <h3><em><strong>Your favorite movie with top rated restaurants close to the theater, just few clicks away!</strong></em></h3>
+
+        </div>
+
+        <div class = "signInInput">
+  
+           <div id="firebaseui-auth-container"></div>
+           <div id="loader">Loading...</div>    
+       
+        </div>
+    </div>    
+
+</form>
+
+<!-- Link to JS ------------------------------------------------------------------------------------------->
+<script type="text/javascript" src="assets/javascript/initalizejs.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

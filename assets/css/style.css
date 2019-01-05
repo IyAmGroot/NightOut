@@ -1,0 +1,138 @@
+/* GENERAL FORMATTING  ------------------------------------------------------------------------------------- */
+
+body{    background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*formatting buttons*/
+#registerBtn, #searchMovieBtn{   background-color: black;           
+                          font-size: 12px;
+                          padding: 10px 20px 10px 20px;
+                          margin: 5px 10px 10px 5px;    }
+
+
+/*including box to place #registerBtn*/                                    
+#invisibleBox{ visibility: hidden}
+
+h1 {   font-size: 26px; 
+width: 500px;
+margin: 15px 0px 5px 0px; 
+}
+
+h2 {   font-size: 24px;
+margin: 2px; }      
+
+
+/* INDEX PAGE  -------------------------------------------------------------------------------------------- */
+
+h3{   font-size: 14px; 
+margin: 4px; }  
+
+.containerIndex {     display: block;
+               text-align: left;
+               width: 750px;
+               background-color: white;
+               border-radius: 5px;
+               padding: 1%;
+               margin: 30px auto;   } 
+
+.logo {   display: block;
+   margin: 0px 5px 5px 5px;
+   padding: 3px;
+   text-align: center;   }
+
+#logoImage{   width: 300px;
+       height: 150px;   }
+
+
+.signInInput{    font-size: 14px;
+          padding: 5px;
+          display: block;
+          text-align: left;   }       
+
+
+
+/* USER REGISTRATION PAGE -------------------------------------------------------------------------------------------- */
+
+#menuBar{   height: 20px;                                       /*also for MOVIE SEARCH PAGE*/
+     background-color:black;   } 
+
+.containerHeaderRegistration{   width: 750px;
+                         height: 100px;
+                         background-color: white;
+                         border-radius: 5px;
+                         padding: 1%;
+                         margin: 10px auto;  }
+
+.formRegistration{  display: block;
+             width: 750px;
+             background-color: white;
+             border-radius: 5px;
+             padding: 1%;
+             margin: 5px auto;  }
+
+#logoImageSmall{   width: 180px;                                  /*also for MOVIE SEARCH PAGE*/
+            height: 70px;  }
+          
+h4{   font-size: 12px;   }                                        /*also for MOVIE SEARCH PAGE*/
+ 
+#textHeader{   vertical-align: center;  }                         /*also for MOVIE SEARCH PAGE*/
+  
+
+
+/* MOVIE SEARCH PAGE   -------------------------------------------------------------------------------------- */
+
+.containerHeaderMovie{  width: 960px;
+                 height: 100px;
+                 background-color: white;
+                 border-radius: 5px;
+                 padding: 1%;
+                 margin: 10px auto;  }   
+
+.movieSearch{ display: block;
+       width: 960px;
+       background-color: white;
+       border-radius: 5px;
+       padding: 1%;
+       margin: 5px auto;  }
+
+
+/* Display Search Results */
+
+#theater-list, #restaurant-list, #map{
+display: block;
+width: 960px;
+background-color: white;
+border-radius: 5px;
+padding: 1%;
+margin: 5px auto;  }
+
+/* enable absolute positioning */
+.inner-addon {
+       position: relative;
+     }
+     
+     /* style glyph */
+     .inner-addon .glyphicon {
+       position: absolute;
+       padding: 10px;
+       pointer-events: none;
+     }
+     
+     /* align glyph */
+     .right-addon .glyphicon {
+       right: 0px;
+     }
+     
+     /*Button for popup window on map*/
+     .mapBtn {
+       cursor: pointer;
+       padding: 5px;
+       border-radius: 30px;
+     }
+     /*map on page*/
+     #map {
+       height: 600px;
+       width: 800px;
+     }
